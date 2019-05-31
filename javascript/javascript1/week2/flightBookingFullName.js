@@ -33,11 +33,11 @@ const fullName2 ={
  let useFormalName = true; // True or False (Choise)
  function getFullName (person){
      let name = person.firstName + ' ' + person.sureName;
-     if (useFormalName === true){
+     if (useFormalName === true){ 
          return 'Lord ' + name;
      }
      else {
          return name;
      }
  }
- getFullName (fullName1); // fullName1 or FullName2 (Choise)
+ getFullName (fullName1); // fullName1 or FullName2 (Choise).

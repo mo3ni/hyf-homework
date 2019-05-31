@@ -23,7 +23,7 @@ function addStudentToClass(studentName) {
       
     }
     return massage;
-}
+} 
 function getNumberOfStudents() {
     return class07Students.length;
 }

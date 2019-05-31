@@ -20,5 +20,5 @@ const clothes = ['Jacket & Jeans','Pants & Overalls','raincoats & umbrella','Sho
 
         }
   
-    }
-    clothesToWear(2); 
+    } 
+    clothesToWear(3); 

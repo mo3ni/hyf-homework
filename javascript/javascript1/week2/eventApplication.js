@@ -5,4 +5,4 @@ function getEventWeekDay (eventHeldDay){
     const eventDay = (eventHeldDay + day.getDate()) % 7;
     return weekDays[eventDay];
 }
-console.log('Selected event will be held in : '+ getEventWeekDay(9));
+console.log('Selected event will be held in : '+ getEventWeekDay(9)); 
