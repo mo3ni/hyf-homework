@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warmup</title>
+</head>
+<body>
+    <h1>Click button bellow to show show a text after 2.5 second...</h1>
+    <button>Click!</button> <br/>
+    <button onclick="getLocation()">Log Location</button>
+    <p id="location"></p>
+    <!-- <button id="btnVanilla">Vanilla</button>
+    <button id="btnjQuery">jQuery</button> -->
+
+    
+<p id="demmo">Double-click this paragraph to trigger a function.</p>
+
+<p id="demo"></p>
+
+<script>
+    var clicktimer;
+
+    document.getElementById("demmo").onclick= function(e){
+    e= window.event || e;
+    if (clicktimer) setTimeout(function(e){/*click handler*/},2500)
+    else (clicktimer) //clearTimeout(clicktimer);
+    // else clicktimer= setTimeout(function(e){/*click handler*/},2500);
+    document.getElementById("demmo").innerHTML = "Hello World"
+}
+// function myFunction() {
+// setTimeout(()=>{
+// },4000);
+// // setTimeout(() => { 
+// // //      console.log('Called after 2.5 Seconds...')
+// // //  }, 2500);
+//   document.getElementById("demo").innerHTML = "Hello World";
+// }
+</script>
+
+    <script src="warmup.js"></script>
+</body>
+</html>
