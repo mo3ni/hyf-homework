@@ -1,0 +1,22 @@
+/*  Creating first Json file 
+Json can contain the following data type
+(1)Number: can be integer or float no difference
+(2)String : Should use double quotes arround string and key words
+(3)Boolean: True or false
+(4)Array: Ordered list or many values in an array 
+(5)Object : unordered collection of key
+(6)Null : Empty value is allowed in Json file
+*/
+// start with open and close curly Brackets
+{
+"name": "Mohammad",
+"middleName":null,
+"surName":"Mohseni",
+"age": 25,
+"address":{
+    "street":"Nordens Plads",
+    "houseNumber":14
+},
+"hobbies":["study","sport","travel","football"],
+"education":true
+}

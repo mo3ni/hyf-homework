@@ -1,0 +1,48 @@
+body{
+    background-color: #eee;
+  }
+  
+  .container{
+    width: 500px;
+    height: 500px;
+    margin:25vh auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
+  }
+  
+  .header {
+    height: 20%;
+    background-color: rgb(100, 95, 86);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    position:relative;
+  }
+  .city-icon, .temperature, .humidity, .clouds, .wind, .sunrise, .sunset {
+    position: relative;
+    padding: 3%;
+    width: 50%;
+  }
+  #search-btn {
+    width: 40px;
+    height:40px;
+    color: #eee;
+  }
+  
+  #search-txt {
+    color: rgb(12, 12, 12);
+    height:30px;
+    border-radius: 10px;
+    border-style:none;
+    outline:none;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:center;
+  }
+  .search {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+  }
