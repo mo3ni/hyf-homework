@@ -32,5 +32,10 @@ alter table class drop status;
 alter table class add column status enum ('not_started','on_going','fineshed');
 select * from class;
 
+create table `mine` (`id` int(10) not null auto_increment, `name` varchar (255) not null, `email` varchar (255), primary key(`id`))
+engine= innoDB default charset = utf8mb4 collate = utf8mb4_unicode_ci;
+create table `you` (`id` int(10) not null auto_increment,`name` varchar(255),`email` varchar(255), `class_id` int(10) not null,
+primary key(`id`), constraint `fk_id` foreign key (`class_id`) references `mine`(`id`)) engine= innodb default char set= utf8mb4 collate= utf8mb4_unicode_ci;
+
 
 
