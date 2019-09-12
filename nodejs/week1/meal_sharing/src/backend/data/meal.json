@@ -1,0 +1,25 @@
+[
+    {
+      "id":1,
+      "title":"Indian food in the summer",
+      "maxNumberOfGuests":5,
+      "description":"A nice night out eating delicious indian food",
+      "createdAt":"2019/12/7 14:34","price":67
+      },
+      {
+          "id":2,
+          "title":"Danish food in  the winter",
+          "maxNumberofGuests":4,
+          "description":"Fantasy dinner with friends",
+          "createdAt":"2019/08/23 13:20",
+          "price":40
+      },
+      {
+        "id":3,
+        "title":"fransk food in  the summer",
+        "maxNumberofGuests":10,
+        "description":"best memories with dady",
+        "createdAt":"2018/04/23 17:20",
+        "price":100
+    }
+  ]
