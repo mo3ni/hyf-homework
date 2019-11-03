@@ -1,0 +1,16 @@
+input {
+    align-items: center;
+  
+  }
+
+  .formdiv {
+      text-align: center;
+
+      /* padding-left: 50%; */
+      /* background: chartreuse; */
+  }
+
+  input {
+      width: 22em;
+      height: 2em;
+  }
